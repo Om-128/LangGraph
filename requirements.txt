@@ -1,0 +1,7 @@
+langchain
+langgraph
+langchain-community
+dotenv
+langchain-google-genai
+langchain-groq
+grandalf
