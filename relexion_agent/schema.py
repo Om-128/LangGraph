@@ -19,3 +19,8 @@ class AnswerQuestion(BaseModel):
     reflection : Reflection = Field(
         description="Your reflection on the initial answer"
     )
+
+class ReviseAnswer(AnswerQuestion):
+    references: List[str] = Field(
+        description="Citations motivating your updated answer."
+    )
