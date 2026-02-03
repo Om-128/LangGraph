@@ -5,3 +5,5 @@ dotenv
 langchain-google-genai
 langchain-groq
 grandalf
+graphviz
+IPython
